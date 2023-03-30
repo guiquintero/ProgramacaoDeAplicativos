@@ -41,6 +41,8 @@ public class Colaborador {
 		return "Colaborador [nome=" + nome + ", endereco=" + endereco + ", dataInicio=" + dataInicio + "]";
 	}
 	
-	
+	public void mostrarDados() {
+		
+	}
 
 }

@@ -1,4 +1,4 @@
-package lista1;
+package lista1_1;
 
 public class Aluno extends Pessoa{
 

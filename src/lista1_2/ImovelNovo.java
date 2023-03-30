@@ -1,4 +1,4 @@
-package lista1;
+package lista1_2;
 
 public class ImovelNovo extends Imovel{
 	private double valorAdicional;

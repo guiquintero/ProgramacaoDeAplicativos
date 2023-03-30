@@ -22,5 +22,10 @@ public class Estagiario extends Funcionario{
 				+ ", endereco=" + endereco + ", dataInicio=" + dataInicio + "]";
 	}
 	
-	
+	public void mostrarDados() {
+		System.out.println("=-=-=-=-=-=-=-=");
+		System.out.println("Nome: "+this.nome+"\nEndereco: "+this.endereco+"\nData de Inicio: "+this.dataInicio+"\nFuncao: "+this.funcao+
+				"\nSalario: "+this.salario+"\nCIEE: "+this.ciee);
+		System.out.println("=-=-=-=-=-=-=-=");
+	}
 }

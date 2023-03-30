@@ -23,5 +23,10 @@ public class Empregado extends Funcionario{
 				+ ", nome=" + nome + ", endereco=" + endereco + ", dataInicio=" + dataInicio + "]";
 	}
 	
-	
+	public void mostrarDados() {
+		System.out.println("=-=-=-=-=-=-=-=");
+		System.out.println("Nome: "+this.nome+"\nEndereco: "+this.endereco+"\nData de Inicio: "+this.dataInicio+"\nFuncao: "+this.funcao+
+				"\nSalario: "+this.salario+"\nCarteira de Trabalho: "+this.carteiraTrabalho);
+		System.out.println("=-=-=-=-=-=-=-=");
+	}
 }

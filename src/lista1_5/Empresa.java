@@ -22,5 +22,11 @@ public class Empresa extends Prestador{
 				+ ", endereco=" + endereco + ", dataInicio=" + dataInicio + "]";
 	}
 
+	public void mostrarDados() {
+		System.out.println("=-=-=-=-=-=-=-=");
+		System.out.println("Nome: "+this.nome+"\nEndereco: "+this.endereco+"\nData de Inicio: "+this.dataInicio+"\nCusto da hora: "+this.valorHora+
+				"\nTipo de Servico: "+this.tipoServico+"\nCNPJ: "+this.cnpj);
+		System.out.println("=-=-=-=-=-=-=-=");
+	}
 	
 }
