@@ -20,7 +20,7 @@ public class Pessoa {
 	@Override
 	public String toString() {
 		return "Nome: " + nome + "\nData de Nascimento: " + dataNascimento + "\nSexo: " + sexo + "\nE-mail: " + email
-				+ "\nEstado Civil: " + estadoCivil + "\nEndereco: " + endereco+"";
+				+ "\nEstado Civil: " + estadoCivil.getEstado() + "\nEndereco: " + endereco+"";
 	}
 
 	public String getNome() {
